@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.container{
+  background-color:  rgb(32, 35, 41);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  font-family: 'Source Code Pro';
+  min-height: 100vh;
+  height: auto;
+  position: relative;
+}
+ 
+.Cards nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(23, 22, 22);
+  margin-left: 30px;
+  transform: scale(0.9);
+  border-radius: 30px;
+  position: static;
+  z-index: 1;
+}
+.Inner{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color:  rgb(32, 35, 41);
+  height: auto;
+}
+.Plane{
+  columns: 2;
+  position: relative;
+}
+.Car{
+  background-image: linear-gradient(to right, rgb(22, 183, 215), rgb(27, 27, 189));
+  padding: 20px;
+  border-radius: 50px;
+  /* z-index: 1; */
+  color: rgb(0, 0, 0);
+  font-size: 1.02em;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+.BuG{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  align-items: center;
+}
+.CarP{
+  background-image: linear-gradient(to right, rgb(163, 22, 215), rgb(27, 27, 189));
+  padding: 20px;
+  border-radius: 50px;
+  /* z-index: 1; */
+  color: rgb(0, 0, 0);
+  font-size: 1.02em;
+  border: 1px solid greenyellow;
+  cursor: pointer;
+}
+.Navv{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1px 150px;
+  align-items: center;
+  position: sticky
+}
+.Navv h5{
+  margin: 5px auto;
+  font-size: 25px;
+  font-family:  'Source Code Pro';
+  background-image: linear-gradient(to right, rgb(22, 183, 215), rgb(27, 27, 189));
+  color: transparent;
+  background-clip: text;
+}
+.h6{
+  margin: 5px auto;
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+  border: 1px solid greenyellow;
+  border-radius: 50px;
+  padding: 5px;
+}
+.h66{
+  margin: 5px auto;
+  color: rgb(238, 11, 174);
+  font-size: 25px;
+  cursor: pointer;
+  border: 1px solid rgb(248, 219, 6);
+  border-radius: 50px;
+  padding: 5px;
+}
+/* Open and close */
+.Ham{
+  width: 180px;
+  top: 98%;
+  right: 10%;
+  position: absolute;
+  background-color: rgb(48, 103, 231);
+  border-radius: 15px;
+  padding: 10px;
+  height: auto;
+  z-index: 2;
+}
+
+
+.Haa{
+  display: none;
+}
+/* card t */
+.CardT a{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1px 5px;
+}
+.CardT p{
+  font-size: 16px;
+  width: 160px;
+  margin-left: 10px;
+}
+
+.Imm img{
+  border-radius: 50%;
+}
+
+.Status{
+  position: absolute;
+    position: relative;
+  top: -10px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  left: 30px;
+}
+.Gender{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+}
+.Alive{
+  color: greenyellow;
+  position: relative;
+}
+.Dead{
+  color: red;
+}
+.Status p{
+  font-size: 15px;
+  font-weight: 600;
+
+}
+
+.Location{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: silver;
+  font-size: 15px;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+}
+.Location P{
+  color: white;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.input{
+  border: none;
+  border-bottom: 2px solid white;
+  border-radius: 20px;
+  width: 250px;
+  font-size: 2em;
+  margin: 10px;
+
+}
+.input:focus{
+  outline: none;
+}
+
+
+ /* for small devices  */
+@media (max-width: 600px) {
+ .Plane{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  height: auto;
+
+}
+.Navv{
+  padding: 1px 50px;
+}
+.Cards{
+  margin-left: 1px;
+}
+.container{
+  margin-bottom: 10px;
+
+}
+}
