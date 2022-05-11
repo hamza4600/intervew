@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&family=Space+Mono&display=swap');
+.Hone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: rgb(0, 255, 0);
+    font-family:  monospace; 
+    /* font-family: 'Source Code Pro'; */
+    overflow: hidden;
+    min-height: 100vh;;  
+}
+.Key{
+    font-size: 20px;
+    text-transform: lowercase;
+    white-space: pre-wrap
+}
+ /* for mobile */
+@media (max-width: 600px) {
+    .Camm{
+        width: 95%;
+         padding: 10px;
+    }
+    .Key{
+        font-size: 10px;
+    }
+}

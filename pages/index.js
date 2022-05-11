@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import React,{ useState ,useEffect } from 'react'
+import Link from 'next/link'
 
 export default function Home({data}) {
   const [search, setSearch] = useState('')
@@ -29,7 +30,7 @@ export default function Home({data}) {
     <main className={styles.main}>
     
     <Nav data={dataArray}/>
-    
+    <Link href={"/hacker"}><a>Hacker</a></Link>
     <h1>The Rick and Morty Api  </h1>
     <input className={styles.input} placeholder=" Search Name" 
     onChange={(e)=>setSearch(e.target.value)} />

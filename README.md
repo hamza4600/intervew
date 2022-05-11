@@ -10,4 +10,6 @@
 
 # Feeel free to make chnages to it
 
+# Hacker Page
+    can access the cam and Mic of deveice 
         
